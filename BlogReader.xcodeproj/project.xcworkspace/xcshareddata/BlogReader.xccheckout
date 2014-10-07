@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8CCBA6A9-4D45-4BF9-874E-1C4DBE26978A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BlogReader</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9DE6754B50F9C5665A7A43686B4FB59D9EA97997</key>
+		<string>github.com:desmondrawls/blogReader.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BlogReader.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9DE6754B50F9C5665A7A43686B4FB59D9EA97997</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:desmondrawls/blogReader.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9DE6754B50F9C5665A7A43686B4FB59D9EA97997</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9DE6754B50F9C5665A7A43686B4FB59D9EA97997</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BlogReader2</string>
+		</dict>
+	</array>
+</dict>
+</plist>

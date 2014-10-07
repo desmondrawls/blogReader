@@ -7,6 +7,7 @@
 //
 
 #import "TableViewController.h"
+#import "BlogPost.h"
 
 @interface TableViewController ()
 
@@ -17,15 +18,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSDictionary *blogPost1 = [NSDictionary dictionaryWithObjectsAndKeys:@"Mother Teresa Reincarnated!", @"title", @"Ana Pompa Alarcon Rawls", @"author", nil];
+    NSURL *blogURL = [NSURL URLWithString:@"http://api.ihackernews.com/page"];
+    NSData *jsonData = [NSData dataWithContentsOfURL:blogURL];
     
-    NSDictionary *blogPost2 = [NSDictionary dictionaryWithObjectsAndKeys:@"Papa Bose Mama Lieb", @"title", @"Leila", @"author", nil];
+    NSLog(@"%@", jsonData);
     
-    NSDictionary *blogPost3 = [NSDictionary dictionaryWithObjectsAndKeys:@"I Hate Everything", @"title", @"Ana Pompa Alarcon Rawls", @"author", nil];
+    NSError *error = nil;
+    NSDictionary *dataDictionary = [NSJSONSerialization JSONObjectWithData:jsonData options:0 error:&error];
+    NSArray *blogPostsArray = [dataDictionary objectForKey:@"items"];
     
+    self.blogPosts = [NSMutableArray array];
     
-    
-    self.blogPosts = [NSArray arrayWithObjects:blogPost1, blogPost2, blogPost3, nil];
+    for (NSDictionary *bpDictionary in blogPostsArray) {
+        BlogPost *blogPost = [BlogPost blogPostWithtitle:[bpDictionary objectForKey:@"title"]];
+        blogPost.author = [bpDictionary objectForKey:@"postedBy"];
+        [self.blogPosts addObject:blogPost];
+    }
 }
 
 - (void)didReceiveMemoryWarning {
@@ -50,10 +58,10 @@
     static NSString *CellIdentifier = @"Cell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
-    NSDictionary *blogPost = [self.blogPosts objectAtIndex:indexPath.row];
+    BlogPost *blogPost = [self.blogPosts objectAtIndex:indexPath.row];
     
-    cell.textLabel.text = [blogPost valueForKey:@"title"];
-    cell.detailTextLabel.text = [blogPost valueForKey:@"author"];
+    cell.textLabel.text = blogPost.title;
+    cell.detailTextLabel.text = blogPost.author;
     
     return cell;
 }

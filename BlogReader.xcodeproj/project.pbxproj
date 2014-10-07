@@ -11,6 +11,7 @@
 		B83CCCF519E2EC8900388122 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B83CCCF419E2EC8900388122 /* AppDelegate.m */; };
 		B8E3B2DD19E36EAB003A81F5 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8E3B2DC19E36EAB003A81F5 /* MainStoryboard.storyboard */; };
 		B8E3B2E019E37915003A81F5 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E3B2DF19E37915003A81F5 /* TableViewController.m */; };
+		B8E3B2E319E38C35003A81F5 /* BlogPost.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E3B2E219E38C35003A81F5 /* BlogPost.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		B8E3B2DC19E36EAB003A81F5 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 		B8E3B2DE19E37915003A81F5 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		B8E3B2DF19E37915003A81F5 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		B8E3B2E119E38C35003A81F5 /* BlogPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlogPost.h; sourceTree = "<group>"; };
+		B8E3B2E219E38C35003A81F5 /* BlogPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlogPost.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				B8E3B2DF19E37915003A81F5 /* TableViewController.m */,
 				B83CCCEF19E2EC8900388122 /* Supporting Files */,
 				B8E3B2DC19E36EAB003A81F5 /* MainStoryboard.storyboard */,
+				B8E3B2E119E38C35003A81F5 /* BlogPost.h */,
+				B8E3B2E219E38C35003A81F5 /* BlogPost.m */,
 			);
 			path = BlogReader;
 			sourceTree = "<group>";
@@ -164,6 +169,7 @@
 				B83CCCF519E2EC8900388122 /* AppDelegate.m in Sources */,
 				B8E3B2E019E37915003A81F5 /* TableViewController.m in Sources */,
 				B83CCCF219E2EC8900388122 /* main.m in Sources */,
+				B8E3B2E319E38C35003A81F5 /* BlogPost.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
