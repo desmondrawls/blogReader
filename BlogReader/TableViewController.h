@@ -1,5 +1,5 @@
 //
-//  MasterViewController.h
+//  TableViewController.h
 //  BlogReader
 //
 //  Created by Family Pompa Alarcón Rawls on 10/6/14.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MasterViewController : UITableViewController
+@interface TableViewController : UITableViewController
 
+@property (nonatomic, strong) NSArray *blogPosts;
 
 @end
-

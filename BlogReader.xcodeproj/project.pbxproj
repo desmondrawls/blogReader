@@ -9,23 +9,9 @@
 /* Begin PBXBuildFile section */
 		B83CCCF219E2EC8900388122 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B83CCCF119E2EC8900388122 /* main.m */; };
 		B83CCCF519E2EC8900388122 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B83CCCF419E2EC8900388122 /* AppDelegate.m */; };
-		B83CCCF819E2EC8900388122 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B83CCCF719E2EC8900388122 /* MasterViewController.m */; };
-		B83CCCFB19E2EC8900388122 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B83CCCFA19E2EC8900388122 /* DetailViewController.m */; };
-		B83CCCFE19E2EC8900388122 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B83CCCFC19E2EC8900388122 /* Main.storyboard */; };
-		B83CCD0019E2EC8900388122 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B83CCCFF19E2EC8900388122 /* Images.xcassets */; };
-		B83CCD0319E2EC8900388122 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B83CCD0119E2EC8900388122 /* LaunchScreen.xib */; };
-		B83CCD0F19E2EC8900388122 /* BlogReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B83CCD0E19E2EC8900388122 /* BlogReaderTests.m */; };
+		B8E3B2DD19E36EAB003A81F5 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8E3B2DC19E36EAB003A81F5 /* MainStoryboard.storyboard */; };
+		B8E3B2E019E37915003A81F5 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E3B2DF19E37915003A81F5 /* TableViewController.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		B83CCD0919E2EC8900388122 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B83CCCE419E2EC8900388122 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B83CCCEB19E2EC8900388122;
-			remoteInfo = BlogReader;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		B83CCCEC19E2EC8900388122 /* BlogReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlogReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,27 +19,15 @@
 		B83CCCF119E2EC8900388122 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B83CCCF319E2EC8900388122 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B83CCCF419E2EC8900388122 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B83CCCF619E2EC8900388122 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		B83CCCF719E2EC8900388122 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		B83CCCF919E2EC8900388122 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		B83CCCFA19E2EC8900388122 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		B83CCCFD19E2EC8900388122 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B83CCCFF19E2EC8900388122 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		B83CCD0219E2EC8900388122 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		B83CCD0819E2EC8900388122 /* BlogReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlogReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B83CCD0D19E2EC8900388122 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B83CCD0E19E2EC8900388122 /* BlogReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlogReaderTests.m; sourceTree = "<group>"; };
+		B8E3B2DC19E36EAB003A81F5 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B8E3B2DE19E37915003A81F5 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		B8E3B2DF19E37915003A81F5 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B83CCCE919E2EC8900388122 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B83CCD0519E2EC8900388122 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,7 +50,6 @@
 			isa = PBXGroup;
 			children = (
 				B83CCCEC19E2EC8900388122 /* BlogReader.app */,
-				B83CCD0819E2EC8900388122 /* BlogReaderTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,14 +59,10 @@
 			children = (
 				B83CCCF319E2EC8900388122 /* AppDelegate.h */,
 				B83CCCF419E2EC8900388122 /* AppDelegate.m */,
-				B83CCCF619E2EC8900388122 /* MasterViewController.h */,
-				B83CCCF719E2EC8900388122 /* MasterViewController.m */,
-				B83CCCF919E2EC8900388122 /* DetailViewController.h */,
-				B83CCCFA19E2EC8900388122 /* DetailViewController.m */,
-				B83CCCFC19E2EC8900388122 /* Main.storyboard */,
-				B83CCCFF19E2EC8900388122 /* Images.xcassets */,
-				B83CCD0119E2EC8900388122 /* LaunchScreen.xib */,
+				B8E3B2DE19E37915003A81F5 /* TableViewController.h */,
+				B8E3B2DF19E37915003A81F5 /* TableViewController.m */,
 				B83CCCEF19E2EC8900388122 /* Supporting Files */,
+				B8E3B2DC19E36EAB003A81F5 /* MainStoryboard.storyboard */,
 			);
 			path = BlogReader;
 			sourceTree = "<group>";
@@ -144,24 +113,6 @@
 			productReference = B83CCCEC19E2EC8900388122 /* BlogReader.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B83CCD0719E2EC8900388122 /* BlogReaderTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B83CCD1519E2EC8900388122 /* Build configuration list for PBXNativeTarget "BlogReaderTests" */;
-			buildPhases = (
-				B83CCD0419E2EC8900388122 /* Sources */,
-				B83CCD0519E2EC8900388122 /* Frameworks */,
-				B83CCD0619E2EC8900388122 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B83CCD0A19E2EC8900388122 /* PBXTargetDependency */,
-			);
-			name = BlogReaderTests;
-			productName = BlogReaderTests;
-			productReference = B83CCD0819E2EC8900388122 /* BlogReaderTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -173,10 +124,6 @@
 				TargetAttributes = {
 					B83CCCEB19E2EC8900388122 = {
 						CreatedOnToolsVersion = 6.0.1;
-					};
-					B83CCD0719E2EC8900388122 = {
-						CreatedOnToolsVersion = 6.0.1;
-						TestTargetID = B83CCCEB19E2EC8900388122;
 					};
 				};
 			};
@@ -194,7 +141,6 @@
 			projectRoot = "";
 			targets = (
 				B83CCCEB19E2EC8900388122 /* BlogReader */,
-				B83CCD0719E2EC8900388122 /* BlogReaderTests */,
 			);
 		};
 /* End PBXProject section */
@@ -204,16 +150,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B83CCCFE19E2EC8900388122 /* Main.storyboard in Resources */,
-				B83CCD0319E2EC8900388122 /* LaunchScreen.xib in Resources */,
-				B83CCD0019E2EC8900388122 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B83CCD0619E2EC8900388122 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				B8E3B2DD19E36EAB003A81F5 /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,48 +162,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B83CCCF519E2EC8900388122 /* AppDelegate.m in Sources */,
-				B83CCCF819E2EC8900388122 /* MasterViewController.m in Sources */,
+				B8E3B2E019E37915003A81F5 /* TableViewController.m in Sources */,
 				B83CCCF219E2EC8900388122 /* main.m in Sources */,
-				B83CCCFB19E2EC8900388122 /* DetailViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B83CCD0419E2EC8900388122 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B83CCD0F19E2EC8900388122 /* BlogReaderTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		B83CCD0A19E2EC8900388122 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B83CCCEB19E2EC8900388122 /* BlogReader */;
-			targetProxy = B83CCD0919E2EC8900388122 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		B83CCCFC19E2EC8900388122 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B83CCCFD19E2EC8900388122 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B83CCD0119E2EC8900388122 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B83CCD0219E2EC8900388122 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B83CCD1019E2EC8900388122 /* Debug */ = {
@@ -365,40 +266,6 @@
 			};
 			name = Release;
 		};
-		B83CCD1619E2EC8900388122 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = BlogReaderTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlogReader.app/BlogReader";
-			};
-			name = Debug;
-		};
-		B83CCD1719E2EC8900388122 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = BlogReaderTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlogReader.app/BlogReader";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -418,14 +285,7 @@
 				B83CCD1419E2EC8900388122 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		B83CCD1519E2EC8900388122 /* Build configuration list for PBXNativeTarget "BlogReaderTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B83CCD1619E2EC8900388122 /* Debug */,
-				B83CCD1719E2EC8900388122 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
