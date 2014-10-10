@@ -15,6 +15,8 @@
     
     if(self){
         self.title = title;
+        self.thumbnail = nil;
+        self.author = nil;
     }
     
     return self;
@@ -23,5 +25,10 @@
 + (id) blogPostWithtitle:(NSString *)title{
     return [[self alloc] initWithTitle:title];
 }
+
+-(NSURL *) thumbnailURL{
+    return [NSURL URLWithString:self.thumbnail];
+}
+
 
 @end

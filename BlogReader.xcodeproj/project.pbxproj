@@ -12,6 +12,8 @@
 		B8E3B2DD19E36EAB003A81F5 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8E3B2DC19E36EAB003A81F5 /* MainStoryboard.storyboard */; };
 		B8E3B2E019E37915003A81F5 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E3B2DF19E37915003A81F5 /* TableViewController.m */; };
 		B8E3B2E319E38C35003A81F5 /* BlogPost.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E3B2E219E38C35003A81F5 /* BlogPost.m */; };
+		B8EC3FDC19E4D31600029E25 /* hackernews-logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8EC3FDB19E4D31600029E25 /* hackernews-logo.jpg */; };
+		B8EC3FDF19E8219C00029E25 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8EC3FDE19E8219C00029E25 /* WebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,9 @@
 		B8E3B2DF19E37915003A81F5 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		B8E3B2E119E38C35003A81F5 /* BlogPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlogPost.h; sourceTree = "<group>"; };
 		B8E3B2E219E38C35003A81F5 /* BlogPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlogPost.m; sourceTree = "<group>"; };
+		B8EC3FDB19E4D31600029E25 /* hackernews-logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "hackernews-logo.jpg"; sourceTree = "<group>"; };
+		B8EC3FDD19E8219C00029E25 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		B8EC3FDE19E8219C00029E25 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +73,8 @@
 				B8E3B2DC19E36EAB003A81F5 /* MainStoryboard.storyboard */,
 				B8E3B2E119E38C35003A81F5 /* BlogPost.h */,
 				B8E3B2E219E38C35003A81F5 /* BlogPost.m */,
+				B8EC3FDD19E8219C00029E25 /* WebViewController.h */,
+				B8EC3FDE19E8219C00029E25 /* WebViewController.m */,
 			);
 			path = BlogReader;
 			sourceTree = "<group>";
@@ -76,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				B83CCCF019E2EC8900388122 /* Info.plist */,
+				B8EC3FDB19E4D31600029E25 /* hackernews-logo.jpg */,
 				B83CCCF119E2EC8900388122 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -156,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8E3B2DD19E36EAB003A81F5 /* MainStoryboard.storyboard in Resources */,
+				B8EC3FDC19E4D31600029E25 /* hackernews-logo.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B83CCCF519E2EC8900388122 /* AppDelegate.m in Sources */,
+				B8EC3FDF19E8219C00029E25 /* WebViewController.m in Sources */,
 				B8E3B2E019E37915003A81F5 /* TableViewController.m in Sources */,
 				B83CCCF219E2EC8900388122 /* main.m in Sources */,
 				B8E3B2E319E38C35003A81F5 /* BlogPost.m in Sources */,
